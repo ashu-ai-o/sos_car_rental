@@ -61,6 +61,7 @@ function App() {
       />
       
       <main className="relative">
+        {currentPage === 'home' && <QuickBooking />}
         {renderCurrentPage()}
       </main>
 

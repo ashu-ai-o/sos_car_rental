@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ChevronDown, Play, Calendar, ArrowRight, Star, Shield, Clock } from 'lucide-react';
+import { ChevronDown, Play, Calendar, ArrowRight, Star, Shield, Clock, CreditCard } from 'lucide-react';
 
 interface HeroProps {
   onBookingOpen: () => void;

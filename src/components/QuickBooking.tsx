@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MapPin, Calendar, Clock, Car, Percent, ChevronDown } from 'lucide-react';
+import { MapPin, Calendar, Clock, Car, Percent, ChevronDown, MessageCircle } from 'lucide-react';
 
 const QuickBooking: React.FC = () => {
   const [isExpanded, setIsExpanded] = useState(false);
